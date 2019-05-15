@@ -1,9 +1,9 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'sportsstattracker.cbdjliwubxqe.us-east-1.rds.amazonaws.com',
+  host     : '',
   user     : 'appdbadmin',
-  password : 'PW4Sp0rtStaTrackerAppBy0NS',
-  database : 'db_customapp'
+  password : '',
+  database : ''
 });
 connection.connect(function(err){
 if(!err) {
